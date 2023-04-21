@@ -7,10 +7,21 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      fontFamily: {
+        'karla-extralight': ['karla-extralight', 'sans-serif'],
+        'karla-extralightitalic': ['karla-extralightitalic', 'sans-serif'],
+        'karla-light': ['karla-light', 'sans-serif'],
+        'karla-lightitalic': ['karla-lightitalic', 'sans-serif'],
+        'karla': ['karla-regular', 'sans-serif'],
+        'karla-italic': ['karla-italic', 'sans-serif'],
+        'karla-medium': ['karla-medium', 'sans-serif'],
+        'karla-mediumitalic': ['karla-mediumitalic', 'sans-serif'],
+        'karla-semibold': ['karla-semibold', 'sans-serif'],
+        'karla-semibolditalic': ['karla-semibolditalic', 'sans-serif'],
+        'karla-bold': ['karla-bold', 'sans-serif'],
+        'karla-bolditalic': ['karla-bolditalic', 'sans-serif'],
+        'karla-extrabold': ['karla-extrabold', 'sans-serif'],
+        'karla-extrabolditalic': ['karla-extrabolditalic', 'sans-serif']
       },
     },
   },
